@@ -10,6 +10,7 @@
       "host": "${MYSQL_HOST}",
       "user": "${MYSQL_USER}",
       "database": "${MYSQL_DB}",
+      "port": "${MYSQL_PORT}",
       "password": "${MYSQL_PASSWORD}",
     }
   },
