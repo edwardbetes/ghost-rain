@@ -1,0 +1,29 @@
+{
+  "url": "${WEBSITE_URL}",
+  "server": {
+    "port": ${WEBSITE_PORT},
+    "host": "127.0.0.1"
+  },
+  "database": {
+    "client": "mysql",
+    "connection": {
+      "host": "${MYSQL_HOST}",
+      "user": "${MYSQL_USER}",
+      "database": "${MYSQL_DB}",
+      "password": "${MYSQL_PASSWORD}",
+    }
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "local",
+  "paths": {
+    "contentPath": "content"
+  }
+}
