@@ -24,6 +24,6 @@
   },
   "process": "local",
   "paths": {
-    "contentPath": "content"
+    "contentPath": "/app/content"
   }
 }

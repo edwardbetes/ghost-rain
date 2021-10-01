@@ -2,5 +2,5 @@
   "active-version": "4.16.0",
   "cli-version": "1.17.3",
   "channel": "stable",
-  "name": "localhost"
+  "name": "${BLOG_NAME}"
 }
